@@ -6,7 +6,7 @@ public class Barang {
 	private String nama;
 	private int stok;
 	
-	public Barang(int id, String nama, double harga) {
+	public Barang(int id, String nama, double harga, int stok) {
 		this.id = id;
 		this.nama = nama;
 		this.harga = harga;
