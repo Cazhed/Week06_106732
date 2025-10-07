@@ -5,8 +5,9 @@ public class Handphone extends Barang {
 	public static int total;
 	
 	public Handphone(int id, String nama, double harga, int stok, String warna) {
-		super(id, nama, harga, stok);
+		super(id, nama, harga);
 		this.warna = warna;
+		this.setStok(stok);
 		total++;
 	}
 	

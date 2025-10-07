@@ -6,7 +6,7 @@ public class Barang {
 	protected String nama;
 	protected int stok;
 	
-	public Barang(int id, String nama, double harga, int stok) {
+	public Barang(int id, String nama, double harga) {
 		this.id = id;
 		this.nama = nama;
 		this.harga = harga;
@@ -27,6 +27,10 @@ public class Barang {
 	
 	public int getStok() {
 		return this.stok;
+	}
+	
+	public void setStok(int stok) {
+	    this.stok = stok;
 	}
 	
 	public void minusStok(int jml) {
