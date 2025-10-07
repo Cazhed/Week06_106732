@@ -1,10 +1,10 @@
 package week06.zachary.id.ac.umn;
 
 public class Barang {
-	private int id;
-	private double harga;
-	private String nama;
-	private int stok;
+	protected int id;
+	protected double harga;
+	protected String nama;
+	protected int stok;
 	
 	public Barang(int id, String nama, double harga, int stok) {
 		this.id = id;
