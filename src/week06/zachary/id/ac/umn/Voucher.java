@@ -15,6 +15,6 @@ public class Voucher extends Barang {
 	}
 	
 	public double gethargaJual() {
-		return this.harga;
+		return getHarga() + (getHarga() * pajak);
 	}
 }
